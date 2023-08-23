@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>To-Do List</title>
+</head>
+<body>
+    <div class="full-page">
+        <div class="todo-container">
+            <h1>To-Do List</h1>
+            <div>
+                <input type="text" id="searchInput" placeholder="Search Task">
+                <button id="searchButton" onclick="SearchTask">Search</button>
+            </div>
+            <div class="task-text">
+                <input type="text" id="taskname" placeholder="Add Task">
+                <button id="addButton" onclick="AddTasks()">Add Task</button>
+            </div>
+            <div class="task-form" id="task">
+                <table id="ta">
+                    <tr data-index="0">
+                        <!-- ... -->
+                    </tr>
+                    <!-- Table rows will be added dynamically -->
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
