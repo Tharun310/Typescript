@@ -8,6 +8,7 @@ interface Task {
 var taskslist: Task[] = [];
 var c = 0;
 
+// Adds a new task
 function AddTasks() {
     const taskNameInput = document.getElementById("taskname") as HTMLInputElement;
     const taskName = taskNameInput.value;
